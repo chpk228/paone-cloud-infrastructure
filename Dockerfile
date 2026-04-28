@@ -10,7 +10,6 @@ COPY contact.html /usr/share/nginx/html/home/
 COPY style.css /usr/share/nginx/html/home/
 COPY script.js /usr/share/nginx/html/home/
 
-# custom nginx config
-COPY default.conf /etc/nginx/conf.d/default.conf
+
 
 EXPOSE 80
